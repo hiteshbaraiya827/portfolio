@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+
+footer {
+    text-align: center;
+    color: #111111;
+    padding: 25px 0;
+    background: #fff;
+}
+
+footer .copyright {
+    margin-bottom: .3rem;
+}
+
+footer .credits {
+    margin-bottom: 0;
+}
+
+footer .credits a {
+    color: #111111;
+}
+
+.footer .copyright-box a {
+    text-decoration: none; /* Remove underline */
+}
+
+.socials {
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.socials ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.socials li {
+    display: inline-block; /* Display icons inline */
+    margin: 0 10px; /* Space between icons */
+}
+
+.socials a {
+    font-size: 1.7rem; /* Size of icons */
+    transition: all 500ms ease; /* Smooth color transition on hover */
+    border-radius: 50%; /* Make it circular */
+    margin: 0 5px 0 0; /* Space inside the border */
+    display: inline-flex; /* Align items in the center */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    line-height: 1.4;
+}
+
+.socials a:hover {
+    transition: all 500ms ease;
+}

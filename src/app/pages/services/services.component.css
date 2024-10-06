@@ -1,0 +1,65 @@
+ /*--------------------------------------------------------------
+  # Services
+  --------------------------------------------------------------*/
+
+ .service-box {
+     background-color: #fff;
+     padding: 2.5rem 2.5rem;
+     border-radius: 1rem;
+     margin-bottom: 2.5rem;
+ }
+
+ .service-box:hover .ico-circle {
+     transition: all 500ms ease;
+     color: #fff;
+ }
+
+ .service-box .service-ico {
+     color: #000000;
+ }
+
+ .service-box .ico-circle {
+     transition: all 500ms ease;
+     font-size: 4rem;
+ }
+
+ .service-box .s-title {
+     font-size: 1.4rem;
+     text-align: center;
+     padding: .4rem 0;
+ }
+
+ .service-box .s-description {
+     color: #4e4e4e;
+ }
+
+
+ /* Responsive adjustments */
+@media (max-width: 768px) {
+    .service-box {
+        padding: 2rem 2rem; /* Adjust padding for smaller screens */
+        margin-bottom: 2rem;   /* Adjust margin */
+    }
+
+    .service-box .s-title {
+        font-size: 1.2rem; /* Slightly smaller title */
+    }
+
+    .service-box .ico-circle {
+        font-size: 3rem; /* Smaller icon for mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .service-box {
+        padding: 1rem; /* Further adjustments for extra small screens */
+    }
+
+    .service-box .s-title {
+        font-size: 1rem; /* Further reduce title size */
+    }
+
+    .service-box .ico-circle {
+        font-size: 2.5rem; /* Further reduce icon size */
+    }
+}
