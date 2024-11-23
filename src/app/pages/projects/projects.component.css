@@ -1,5 +1,5 @@
-/* Education Section Styles */
-#education {
+/* Project Section Styles */
+#projects {
     padding: 60px 0;
 }
 
@@ -24,15 +24,15 @@
 }
 
 .w-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     white-space: nowrap; /* Prevent title from wrapping */
 }
 
 .w-ctegory {
     color: #6c757d;
-    font-weight: bold;
     white-space: nowrap;
+    text-wrap: wrap;
 }
 
 .w-date {
